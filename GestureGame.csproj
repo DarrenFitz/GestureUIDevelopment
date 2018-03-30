@@ -248,6 +248,8 @@
     <Compile Include="Assets\Scripts\DepthSourceManager.cs" />
     <Compile Include="Assets\Scripts\DepthSourceView.cs" />
     <Compile Include="Assets\Scripts\DisableOnStart.cs" />
+    <Compile Include="Assets\Scripts\Game\Bubble.cs" />
+    <Compile Include="Assets\Scripts\Game\Hand.cs" />
     <Compile Include="Assets\Scripts\InfraredSourceManager.cs" />
     <Compile Include="Assets\Scripts\InfraredSourceView.cs" />
     <Compile Include="Assets\Scripts\MultiSourceManager.cs" />

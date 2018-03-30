@@ -141,7 +141,7 @@ Transform:
   m_Children:
   - {fileID: 716011534}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &112136120
 MonoBehaviour:
@@ -155,7 +155,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mBodySourceManager: {fileID: 1698423885}
-  mJointObject: {fileID: 1835336239960336, guid: dfa54630d8c446e4883165a85150fe57,
+  mJointObject: {fileID: 1370138558552150, guid: 1970811f9be6a63408137d70c0ebf221,
     type: 2}
 --- !u!1 &716011529
 GameObject:
@@ -253,6 +253,48 @@ Transform:
   m_Father: {fileID: 112136119}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &897845386
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4774891705486214, guid: f2436aaa2155e88499d543bca220d2e9, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4774891705486214, guid: f2436aaa2155e88499d543bca220d2e9, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4774891705486214, guid: f2436aaa2155e88499d543bca220d2e9, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4774891705486214, guid: f2436aaa2155e88499d543bca220d2e9, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4774891705486214, guid: f2436aaa2155e88499d543bca220d2e9, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4774891705486214, guid: f2436aaa2155e88499d543bca220d2e9, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4774891705486214, guid: f2436aaa2155e88499d543bca220d2e9, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4774891705486214, guid: f2436aaa2155e88499d543bca220d2e9, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: f2436aaa2155e88499d543bca220d2e9, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &1698423884
 GameObject:
   m_ObjectHideFlags: 0
@@ -380,5 +422,5 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
